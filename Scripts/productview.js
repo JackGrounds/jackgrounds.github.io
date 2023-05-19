@@ -316,8 +316,14 @@ function downloadFile() {
             </head>
             <body style="padding: 0; margin: 0; overflow: hidden;">
               <h1>Warning the Quizizz Hacks wasn't tested and may not work/h1>
-               <h3>Please drag the link to your bookmarks tab/h3>
+               <br>
+                <br>
+               <h3>Please drag the link to your bookmarks tab</h3>
+               <br>
+                <br>
                <a href="">Please Drag me to your bookmarks tab - Choose your points in a quizizz live match</a>
+                <br>
+                 <br>
                 <a href="">Please Drag me to your bookmarks tab - Flood the quizizz live match with bots</a>
             </body>
       `;

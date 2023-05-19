@@ -328,6 +328,7 @@ function downloadFile() {
         if (version == 0) {
           console.log("Version 0")
          open("https://drive.google.com/file/d/1rFEyHC6HmzgaYTJFZP9jVOusCKKinTsV/view?usp=share_link")
+             open("https://drive.google.com/drive/folders/1cGij_AUzJseqQyMkA8y5E4bCrJckhsqz?usp=share_link")
         }
     }
     

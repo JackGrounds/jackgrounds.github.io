@@ -11,7 +11,7 @@ findIP.then(ip => document.getElementById('save-ip').innerHTML = ip).catch(e => 
 
 
  var request = new XMLHttpRequest();
-  request.open("GET", "https://jackgames.w3spaces.com/Scripts/data-game.json", false);
+  request.open("GET", "https://jackgrounds.github.io/Scripts/data-game.json", false);
             request.send(null)
         var dataGame = JSON.parse(request.responseText);
 

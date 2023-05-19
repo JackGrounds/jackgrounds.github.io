@@ -191,6 +191,24 @@ if (urlParams["utility"]) {
 
   
      }
+  else if ((urlParams["utility"][0] == 10)) {
+        utility = "Edpuzzle Hacks"
+       console.log("Utility is " + utility)
+       document.title = document.title.replace("NAME", utility);
+       document.getElementById("product-name").innerText = utility;
+         let utilitys = utility.replaceAll(" ", "-")
+
+       document.getElementById("product-img").src = "../images/utilityIcons/" + utilitys.toLowerCase() + ".png";
+       document.getElementById("product-description").innerText = "Gimkit Hacks, hack Gimkit. 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 𝗧𝗛𝗜𝗦 𝗖𝗛𝗘𝗔𝗧 𝗪𝗔𝗦𝗡'𝗧 𝗧𝗘𝗦𝗧𝗘𝗗"
+
+
+       let option1 = document.createElement('button');
+       option1.setAttribute("onclick","switchVersion(0,this.innerText)")
+       option1.innerText = "Edpuzzle Cheats"
+      document.getElementById("select-dropdown").appendChild(option1)
+
+  
+     }
      else {
          console.log("Not a valid Utility")
      }
@@ -277,6 +295,12 @@ function downloadFile() {
         }
     }
     else if (utility == "Gimkit Hacks") {
+        if (version == 0) {
+          console.log("Version 0")
+         open("")
+        }
+    }
+    else if (utility == "Edpuzzle Hacks") {
         if (version == 0) {
           console.log("Version 0")
          open("")

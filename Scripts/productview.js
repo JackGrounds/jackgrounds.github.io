@@ -309,7 +309,7 @@ function downloadFile() {
     else if (utility == "Quizizz Hacks") {
         if (version == 0) {
           console.log("Version 0")
-          var tempPage = `
+          var tempPage = new String(
             <html>
             <head>
             <title>Quizizz Hacks</title>
@@ -321,12 +321,12 @@ function downloadFile() {
                <h3>Please drag the link to your bookmarks tab</h3>
                <br>
                 <br>
-               <a href="javascript:(()=>{const e=parseInt(prompt("Points per question (max is 7000):"))-5e3,o=fetch;window.fetch=function(r,s){if(["https://game.quizizz.com/play-api/v4/soloProceed","https://game.quizizz.com/play-api/v4/proceedGame"].includes(r)){const o=JSON.parse(s.body);o.response.provisional.scores={correct:e+5e3,incorrect:e+5e3},o.response.provisional.scoreBreakups={correct:{base:5e3,timer:5e3,streak:5e3,powerups:[],total:e+5e3},incorrect:{base:5e3,timer:5e3,streak:5e3,powerups:[],total:e+5e3}},s.body=JSON.stringify(o)}return o(r,s)}})();">Please Drag me to your bookmarks tab - Choose your points in a quizizz live match</a>
+               <a href=`javascript:(()=>{const e=parseInt(prompt("Points per question (max is 7000):"))-5e3,o=fetch;window.fetch=function(r,s){if(["https://game.quizizz.com/play-api/v4/soloProceed","https://game.quizizz.com/play-api/v4/proceedGame"].includes(r)){const o=JSON.parse(s.body);o.response.provisional.scores={correct:e+5e3,incorrect:e+5e3},o.response.provisional.scoreBreakups={correct:{base:5e3,timer:5e3,streak:5e3,powerups:[],total:e+5e3},incorrect:{base:5e3,timer:5e3,streak:5e3,powerups:[],total:e+5e3}},s.body=JSON.stringify(o)}return o(r,s)}})();`>Please Drag me to your bookmarks tab - Choose your points in a quizizz live match</a>
                 <br>
                  <br>
                 <a href="">Please Drag me to your bookmarks tab - Flood the quizizz live match with bots</a>
             </body>
-      `;
+      );
 
       var w = window.open(''); 
     w.document.write(tempPage);

@@ -327,7 +327,7 @@ function downloadFile() {
      else if (utility == "Minecraft Java Edition") {
         if (version == 0) {
           console.log("Version 0")
-         open("")
+         open("https://drive.google.com/file/d/1rFEyHC6HmzgaYTJFZP9jVOusCKKinTsV/view?usp=share_link")
         }
     }
     

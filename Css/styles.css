@@ -150,6 +150,9 @@ footer {
     margin-top: 20px;
     text-align: center;
     color: #fff;
+    position: relative;
+    transform: translateY(-50%);
+    bottom: 0;
 }
 
 footer h1 {

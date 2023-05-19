@@ -21,7 +21,7 @@ announceTextHead.style = "font-size: 2rem"
 announcement.append(announceTextHead)
 
 var announceText = document.createElement("h3")
-announceText.innerText = "We have important information! Our domain movement failed. We will continue to update this domain. Thank you"
+announceText.innerText = "We have important information! Our domain movement was a success. We will continue to update this domain. Thank you"
 announceText.style = "font-size: 1.2rem"
 announcement.append(announceText)
 }

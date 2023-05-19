@@ -1,0 +1,48 @@
+ .creatures-table {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     width: 100%;
+     height: auto;
+     padding: 30px;
+     gap: 30px;
+     justify-content: center;
+ }
+
+ .creature-card {
+     height: auto;
+     width: 400px;
+     background-color: rgb(235, 235, 235);
+     text-align: center;
+     border-radius: 10px;
+     padding: 10px;
+
+ }
+.creature-card * {
+     padding: 5px 0;
+ }
+
+ .creature-card ul li {
+     list-style: none;
+ }
+
+ .creature-card h1 {
+     font-size: 2rem;
+ }
+
+ .creature-card img {
+     width: 80%;
+ }
+
+ .creature-card button {
+     padding: 20px 30px;
+     background-color: aquamarine;
+     margin-top: 30px;
+ }
+
+ .creature-card button a {
+     text-decoration: none;
+     color: #000;
+     font-size: 1.3rem;
+     font-weight: 600;
+ }

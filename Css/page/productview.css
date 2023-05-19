@@ -1,0 +1,132 @@
+.product-view {
+    display: flex;
+    background: rgb(235, 235, 235);
+    width: 60%;
+    height: 600px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    border-radius: 25px;
+}
+
+
+.product-view .image-view {
+    width: 400px;
+    height: 20vw;
+     position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+     background: rgb(210,210,210);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.product-view .image-view img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-view .detail-view {
+     text-align: center;
+      width: 600px;
+      height: 90%;
+         position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+         background: rgb(210, 210, 210);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.product-view #product-name {
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+
+
+#download-product {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 60px;
+    background: rgb(0, 255, 76);
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #000;
+}
+
+#download-product:disabled {
+   position: absolute;
+    bottom: 50px;
+        left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 60px;
+    font-size: 2rem;
+    font-weight: 600;
+    background: rgb(0, 146, 44);
+    cursor :not-allowed;
+    color: #000;
+}
+
+/* Select Dropdown */
+
+.select-dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.select-dropbtn:hover, .select-dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.select-dropdown-container {
+  display: block;
+   position: relative;
+        left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 0;
+  z-index: 3;
+}
+
+
+.select-content {
+  display: none;
+  position:absolute;
+  left: 48%;
+  transform: translateX(-50%);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+
+       background: rgb(210,210,210);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+
+.select-content button {
+  color: black;
+  padding: 12px 16px;
+  margin: 10px 0;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  z-index: 3;
+}
+
+
+.select-content button:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+

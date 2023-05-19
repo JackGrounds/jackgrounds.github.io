@@ -114,14 +114,8 @@ if (urlParams["utility"]) {
 
        let option1 = document.createElement('button');
        option1.setAttribute("onclick","switchVersion(0,this.innerText)")
-       option1.innerText = "GUI"
+       option1.innerText = "Blooket Cheats"
       document.getElementById("select-dropdown").appendChild(option1)
-
-       let option2 = document.createElement('button');
-       option2.setAttribute("onclick","switchVersion(1,this.innerText)")
-       option2.innerText = "Mobile"
-      document.getElementById("select-dropdown").appendChild(option2)
-
      }
      else if ((urlParams["utility"][0] == 6)) {
         utility = "Tabs"
@@ -240,10 +234,6 @@ function downloadFile() {
         if (version == 0) {
           console.log("Version 0")
           open("https://minesraft2.github.io/Blooket-Cheats/")
-        }
-        else if (version == 1) {
-           console.log("Version 1")
-             open("https://minesraft2.github.io/Blooket-Cheats/")
         }
      }
          else if (utility == "Tabs") {

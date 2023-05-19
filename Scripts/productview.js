@@ -216,7 +216,7 @@ if (urlParams["utility"]) {
        document.getElementById("product-name").innerText = utility;
          let utilitys = utility.replaceAll(" ", "-")
 
-       document.getElementById("product-img").src = "../images/utilityIcons/" + utilitys.toLowerCase() + ".png";
+       document.getElementById("product-img").src = "../images/gameIcons/" + utilitys.toLowerCase() + ".png";
        document.getElementById("product-description").innerText = "Minecraft.. just minecraft"
 
 

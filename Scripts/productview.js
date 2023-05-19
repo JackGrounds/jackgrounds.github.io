@@ -181,7 +181,7 @@ if (urlParams["utility"]) {
          let utilitys = utility.replaceAll(" ", "-")
 
        document.getElementById("product-img").src = "../images/utilityIcons/" + utilitys.toLowerCase() + ".png";
-       document.getElementById("product-description").innerText = "Gimkit Hacks, hack Gimkit. 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 𝗧𝗛𝗜𝗦 𝗖𝗛𝗘𝗔𝗧 𝗪𝗔𝗦𝗡'𝗧 𝗧𝗘𝗦𝗧𝗘𝗗"
+       document.getElementById("product-description").innerText = "Gimkit Hacks, hack Gimkit."
 
 
        let option1 = document.createElement('button');
@@ -315,7 +315,7 @@ function downloadFile() {
             <title>Quizizz Hacks</title>
             </head>
             <body style="padding: 0; margin: 0; overflow: hidden;">
-              <h1>Warning the Quizizz Hacks wasn't tested and may not work</h1>
+              <h1>The Quizizz works and has been tested</h1>
                <br>
                 <br>
                <h3>Please drag the link to your bookmarks tab</h3>

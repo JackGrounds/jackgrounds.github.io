@@ -210,7 +210,7 @@ if (urlParams["utility"]) {
   
      }
   else if ((urlParams["utility"][0] == 11)) {
-        utility = "Minecraft"
+        utility = "Minecraft Java Edition"
        console.log("Utility is " + utility)
        document.title = document.title.replace("NAME", utility);
        document.getElementById("product-name").innerText = utility;
@@ -222,7 +222,7 @@ if (urlParams["utility"]) {
 
        let option1 = document.createElement('button');
        option1.setAttribute("onclick","switchVersion(0,this.innerText)")
-       option1.innerText = "Minecraft"
+       option1.innerText = "Minecraft Java Edition"
       document.getElementById("select-dropdown").appendChild(option1)
 
   
@@ -324,7 +324,7 @@ function downloadFile() {
          open("")
         }
     }
-     else if (utility == "Minecraft") {
+     else if (utility == "Minecraft Java Edition") {
         if (version == 0) {
           console.log("Version 0")
          open("")

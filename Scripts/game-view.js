@@ -200,6 +200,11 @@ function parseURLParams(url) {
             console.log("Bottle Flip 3D")
          game = "Bottle Flip 3D"
      }
+       else if(urlParams["Game"][0] == 33) // Bad Time Simulator
+     {
+            console.log("Bad Time Simulator")
+         game = "Bad Time Simulator"
+     }
       else {
          console.log("Game doesn't Exist")
      }

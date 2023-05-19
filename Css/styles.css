@@ -144,10 +144,11 @@ nav li a:hover {
 /* Footer */
 
 footer {
-    background: red;
-    position: fixed;
+    position: absolute;
+    bottom: 0;
     left: 0;
-    bottom: 5%;
+    right: 0;
+    background: red;
     width: 100%;
     padding: 30px 10px;
     margin-top: 20px;

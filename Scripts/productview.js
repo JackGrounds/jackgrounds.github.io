@@ -209,6 +209,24 @@ if (urlParams["utility"]) {
 
   
      }
+  else if ((urlParams["utility"][0] == 11)) {
+        utility = "Minecraft"
+       console.log("Utility is " + utility)
+       document.title = document.title.replace("NAME", utility);
+       document.getElementById("product-name").innerText = utility;
+         let utilitys = utility.replaceAll(" ", "-")
+
+       document.getElementById("product-img").src = "../images/utilityIcons/" + utilitys.toLowerCase() + ".png";
+       document.getElementById("product-description").innerText = "Minecraft.. just minecraft"
+
+
+       let option1 = document.createElement('button');
+       option1.setAttribute("onclick","switchVersion(0,this.innerText)")
+       option1.innerText = "Minecraft"
+      document.getElementById("select-dropdown").appendChild(option1)
+
+  
+     }
      else {
          console.log("Not a valid Utility")
      }
@@ -301,6 +319,12 @@ function downloadFile() {
         }
     }
     else if (utility == "Edpuzzle Hacks") {
+        if (version == 0) {
+          console.log("Version 0")
+         open("")
+        }
+    }
+     else if (utility == "Minecraft") {
         if (version == 0) {
           console.log("Version 0")
          open("")

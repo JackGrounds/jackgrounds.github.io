@@ -163,7 +163,7 @@ if (urlParams["utility"]) {
          let utilitys = utility.replaceAll(" ", "-")
 
        document.getElementById("product-img").src = "../images/utilityIcons/" + utilitys.toLowerCase() + ".png";
-       document.getElementById("product-description").innerText = "Quizizz Hacks. Hack quizizz our brand new hack. 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 𝗧𝗛𝗜𝗦 𝗖𝗛𝗘𝗔𝗧 𝗪𝗔𝗦𝗡'𝗧 𝗧𝗘𝗦𝗧𝗘𝗗"
+       document.getElementById("product-description").innerText = "Quizizz Hacks. Hack quizizz our brand new hack. "
 
 
        let option1 = document.createElement('button');

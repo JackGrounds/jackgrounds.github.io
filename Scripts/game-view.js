@@ -205,6 +205,11 @@ function parseURLParams(url) {
             console.log("Bad Time Simulator")
          game = "Bad Time Simulator"
      }
+          else if(urlParams["Game"][0] == 34) // Drift Boss
+     {
+            console.log("Drift Boss")
+         game = "Drift Boss"
+     }
       else {
          console.log("Game doesn't Exist")
      }

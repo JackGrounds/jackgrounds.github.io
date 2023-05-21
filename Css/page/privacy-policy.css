@@ -6,3 +6,9 @@ main h1, h2, h3 {
 main {
     padding: 10px;
 }
+
+main a {
+  text-decoration: none;
+  color: #ff4d4d;
+  border-bottom: 3px solid #ff3333;
+}

@@ -10,5 +10,5 @@ main {
 main a {
   text-decoration: none;
   color: #ff4d4d;
-  border-bottom: 3px solid #ff3333;
+  text-decoration: underline solid #ff4e45 2px;
 }
